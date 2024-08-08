@@ -8,7 +8,22 @@
 
 # 19)Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
 # 20)Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
+# # teste = True
+# print(f"teste {5+2}     {7+4}")
 
-teste = True
+# 1- Solicita ao usuário a entrada de uma lista de 4 números
+try:
+    numero_1 = int(input("Insira o 1o número inteiro: "))
+    numero_2 = int(input("Insira o 2o número inteiro: "))
+    numero_3 = int(input("Insira o 3o número inteiro: "))
+    numero_4 = int(input("Insira o 4o número inteiro: "))
+except ValueError:
+    print("Insira um número inteiro válido")
+# except:
+#     print (Exception)
+else:
+    lista = [numero_1, numero_2, numero_3, numero_4]
+    print(lista)
 
-print(not teste)
+# 2- Converte as strings em inteiros
+# 3- Adiciona os inteiros a uma lista
